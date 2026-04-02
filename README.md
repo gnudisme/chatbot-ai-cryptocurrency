@@ -100,28 +100,12 @@ python tests/view_messages.py             # Xem tin nhắn
 
 ---
 
-## 📈 Current Performance
+## Current Performance
 
 | Metric | Value |
 |--------|-------|
-| Accuracy (7-day) | **94.7%** ✅ |
-| Stored Messages | **103+** 💾 |
-| Test Coins | **10** 🪙 |
-| Response Language | **Vietnamese** 🇻🇳 |
+| Accuracy (7-day) | **94.7%** |
+| Stored Messages | **103+** |
+| Test Coins | **10** |
+| Response Language | **Vietnamese** |
 
----
-
-## ❓ Need Help?
-
-- **Bot not responding?** → Check `.env` credentials
-- **Charts not sending?** → Verify PostgreSQL connection
-- **Accuracy check?** → Run `python tests/backtest_predictions.py`
-- **View stored data?** → Run `python tests/view_messages.py`
-
----
-
-## 📝 See Also
-
-- [Test Scripts Guide](tests/README.md)
-- [Full Folder Structure](FOLDER_STRUCTURE.md)
-- [Project Docs](docs/)
