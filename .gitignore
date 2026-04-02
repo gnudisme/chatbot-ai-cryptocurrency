@@ -1,0 +1,43 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables (local secrets)
+.env
+.env.local
+
+# Tests folder
+tests/
+
+# Temporary files
+tmp_docx_extract/
+*.tmp
+*.bak
+
+# Logs
+*.log
+err.txt
+
+# Database cache
+.pytest_cache/
+.coverage
+
+# PID files
+bot.pid
